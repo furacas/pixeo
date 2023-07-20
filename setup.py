@@ -12,7 +12,7 @@ setup(
     version='1.0.0',
     use_scm_version=True,
     packages=find_packages(),
-    install_requires=requirements,
+    # install_requires=requirements,
     url='github.com/furacas/pixeo',
     license='',
     author='furacas',
