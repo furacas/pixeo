@@ -13,7 +13,7 @@ setup(
     use_scm_version=True,
     packages=find_packages(),
     # install_requires=requirements,
-    url='github.com/furacas/pixeo',
+    url='https://github.com/furacas/pixeo',
     license='',
     author='furacas',
     author_email='s.furacas@outlook.com',
