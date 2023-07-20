@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 
-with open('requirements.txt', 'r', encoding='utf-8') as f:
-    requirements = f.readlines()
-requirements = [r.strip() for r in requirements if not r.startswith('#')]
+# with open('requirements.txt', 'r', encoding='utf-8') as f:
+#     requirements = f.readlines()
+# requirements = [r.strip() for r in requirements if not r.startswith('#')]
 
-# Remove version numbers
-requirements = [r.split('==')[0] for r in requirements]
+# # Remove version numbers
+# requirements = [r.split('==')[0] for r in requirements]
 
 setup(
     name='pixeo',
